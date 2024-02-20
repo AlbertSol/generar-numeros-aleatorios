@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #5c378b, #1f15a3); /* Gradiente vertical */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff; /* Texto en color blanco */
+    margin-bottom: 20px;
+    font-size: 36px; /* Tamaño de fuente más grande */
+}
+
+p {
+    color: #fff; /* Texto en color blanco */
+    margin-bottom: 20px;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+button {
+    background-color: #4c56af;
+    color: white;
+    padding: 15px 30px; /* Mayor espacio alrededor del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5f45a0;
+}
+
+#Tablero {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fff; /* Texto en color blanco */
+}
+
+#TableroImagen {
+    width: 200px; /* Esto puede ser ajustado según sea necesario */
+    height: fit-content;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 15px;
+    border: 5px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Agregar transición para suavizar el efecto */
+}
+
+#TableroImagen.small {
+    transform: scale(0.5); /* Reduce el tamaño de la imagen al 50% */
+}
